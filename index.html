@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+
+<style>
+    .main {
+        padding-top: 20px;
+    }
+    
+    .door-img:hover {
+        cursor: pointer;
+    }
+    
+    h3 {
+        position: absolute;
+        left: 47%;
+        top: 10%;
+        color: rgb(177, 174, 174);
+        font-size: 38px;
+        font-weight: 650;
+    }
+    
+    #verdict h4 {
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+</style>
+
+<body>
+    <!-- <h1>Monty Hall problem</h1> -->
+    <div class="container main">
+        <div class="doors row justify-content-between">
+            <div class="col-3 m-2 door">
+                <h3>1</h3>
+                <img id="door-1" class="door-img" src="close.png" alt="" style="height:90%;width:100%">
+            </div>
+            <div class="col-3 m-2 door">
+                <h3>2</h3>
+                <img id="door-2" class="door-img" src="close.png" alt="" style="height:90%;width:100%">
+            </div>
+            <div class="col-3 m-2 door">
+                <h3>3</h3>
+                <img id="door-3" class="door-img" src="close.png" alt="" style="height:90%;width:100%">
+            </div>
+        </div>
+    </div>
+
+    <div id="verdict" class="verdict container mx-auto text-center">
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+
+</html>
